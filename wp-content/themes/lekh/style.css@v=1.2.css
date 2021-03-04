@@ -1,0 +1,277 @@
+/*
+Theme Name: Lekh
+Theme URI: https://themecentury.com/downloads/lekh-free-wordpress-theme/
+Author: ThemeCentury
+Author URI: https://themecentury.com
+Description: A simple and clean WordPress blog style theme with many customization options. This theme is mainly applicable for blogs .It's customizable theme. If any support needed then hit the url https://themecentury.com/forums/ please check the demo on https://demo.themecentury.com/wpthemes/lekh
+Version: 1.0.3
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: lekh
+Tags: grid-layout, one-column, two-columns, three-columns, four-columns, left-sidebar, right-sidebar, custom-background, custom-colors, custom-header,  custom-logo, custom-menu, editor-style, featured-images, footer-widgets, rtl-language-support, sticky-post, theme-options, threaded-comments, translation-ready, blog, education, news
+*/
+/*=============================================================================================
+ * --------------------------- Please do not write any code here ----------------------------- */
+/*=============================================================================================*/
+/*
+ * Note: Please go to Appreance >> Customize >>  Additional CSS and Write css code there.
+ * Warning: If you add any css code on this file than it's working file but when you update your theme all code will be replaced so please do not write any code here.
+ * Need Support please visit my official website https://themecentury.com
+ */
+h1,h2,h3,h4,h5,h6 {
+	color: #004191;
+}
+h4 {
+	margin: 0;
+}
+body {
+	background: url('../../uploads/2019/09/back-1.jpg') no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	font-family: 'Ubuntu', sans-serif;
+}
+.main-navbar {
+	background: #669fd4;
+}
+.site-footer {
+	background: #fff;
+}
+.site-credits {
+	color: #000;
+}
+.left-brand {
+	display: flex;
+	align-items: center;
+
+}
+.left-brand h4 {
+	font-weight: 500;
+}
+.social {
+	padding: 10px 0 0;
+	}
+.social a {
+	margin: 0 5px;
+}
+.search {
+	margin: 10px 0;
+	padding: 5px;
+	border: solid 1px black;
+	text-transform: lowercase;
+}
+.clock {
+	padding: 5px;
+	text-align: center;
+}
+.entry-header {
+	margin: 0;
+}
+.entry-content, .content-area, .page {
+	padding:0 ;
+}
+.wp-block-image img {
+	width: 100%;
+}
+footer {
+	color: black;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 100%;
+	padding: 15px;
+}
+.footer-copy {
+	padding: 0;
+}
+.contacts-footer {
+	width: 300px;
+}
+.clock-footer {
+	width: 300px;
+	text-align: right;
+}
+.container-flex {
+	display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.container-flex p {
+	width: 500px;
+}
+img[alt="direktor"] {
+	width: 75%;
+	height: 100%;
+}
+.entry-content {
+	margin: 40px;
+}
+.wp-block-image {
+	text-align: center;
+	width: 50%;
+	height: 100%;
+	margin: 0;
+}
+.container-flex ul {
+	max-width: 60%;
+}
+.main-navigation .main-menu > li:hover > a, .main-navigation .main-menu > li:focus > a, .main-navigation .main-menu > .current_page_item > a, .main-navigation .main-menu > .current-menu-item > a, .main-navigation .main-menu > .current-menu-ancestor > a {
+    color: #fff;
+    background-color: #a9c6e0;
+}
+.site-description {
+	padding: 0!important;
+	margin: 0 auto;
+}
+#page {
+	background: rgba(255,255,255,0.3);
+}
+#primary {
+	background: rgba(255,255,255,0.3);
+}
+#content {
+	padding: 15px;
+}
+.entry-wrap {
+	padding: 15px;
+}
+.search {
+	text-transform: none;
+	border: none;
+}
+.search-form .search-submit {
+    background-color: #669fd4;
+    border: 1px solid #669fd4;
+}
+.top-search .search-form:before {
+	border-bottom-color: #214d74;
+}
+.top-search .search-form {
+	border-top: 3px solid #214d74;
+}
+#myVideo {
+	display: block;
+	margin: 0 auto 25px;
+}
+.entry-content {
+	margin-top: 0;
+}
+#masthead {
+	margin-bottom: 0;
+}
+body.single .post .entry-header, body.single .page .entry-header, body.page .post .entry-header, body.page .page .entry-header {
+    margin-bottom: 0px;
+}
+.site-logo .custom-logo {
+	max-width: 261px!important;
+}
+.centered div {
+	width: 30%;
+}
+.site-title-centered {
+	background: #fff;
+}
+.list-style-img {
+	list-style-image: url('../../uploads/2019/09/plus-e1569570899944.png');
+}
+.developer {
+	font-size: 14px;
+    margin-top: 5px;
+}
+@media (max-width: 760px) {
+	.container-flex {
+		display: block;
+	}
+	.centered div {
+		width: 100%;
+	}
+}
+@media (min-width: 480px) and (max-width:940px) {
+	footer {
+		display: flex;
+		}
+	.clock-footer {
+		text-align: right;
+	}
+}
+@media (max-width:940px) {
+	#myVideo {
+		display: none;
+	}
+	.left-brand h4 {
+		display: none;
+	}
+	.site-description {
+		display: none;
+	}
+	h1 {
+		font-size: 1.5rem;
+	}
+	h3 {
+		font-size: 1.1rem;
+	}
+	.mob-style {
+		display: block!important;
+	}
+	.mob-style div {
+		width:100%!important;
+	}
+	.entry-content {
+		margin: 0;
+	}
+	.map {
+		display: none;
+	}
+	footer {
+		display: block;
+	}
+	.contacts-footer {
+		line-height: inherit!important;
+	}
+	.clock-footer {
+		text-align: left;
+	}
+	#primary {
+    background: rgba(255,255,255,0);
+	box-shadow: none!important;
+}
+	.container-flex p {
+    width: 100%!important;
+}
+	.container-flex {
+		margin: 0!important;
+	}
+}
+@media (max-width: 970px) {
+	blockquote {
+		display: none;
+		}
+	.wp-block-image {
+		width: 100%;
+	}
+	.container-flex div {
+		width: 100%!important;
+		max-width: 100%!important;
+	}
+	.container-flex ul {
+    max-width: 100%;
+}
+}
+@media (max-width: 1140px) {
+	.flex-reverse {
+		display: flex;
+		flex-direction: column-reverse;
+	}
+	.container-flex ul {
+    max-width: 100%;
+    width: 100%!important;
+}
+	.container-flex p {
+    width: 100%;
+}
+	.min-width img {
+		min-width: 0!important;
+	}
+}
+.wp-image-2227 {
+	border: solid 5px #fff;
+}
